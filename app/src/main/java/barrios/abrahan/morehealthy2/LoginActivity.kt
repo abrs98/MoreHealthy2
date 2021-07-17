@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.Toast
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -33,7 +34,12 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityLoginBinding.inflate(layoutInflater)
-        setContentView(R.layout.activity_login)
+        setContentView(binding.root)
+
+        val signinButton = findViewById<Button>(R.id.signin_btn)
+        val signupButton = findViewById<Button>(R.id.registro_btn)
+        val signinGoogleButton = findViewById<com.google.android.gms.common.SignInButton>(R.id.sign_in_google_button)
+
 
         auth = Firebase.auth
         // Configure sign-in to request the user's ID, email address, and basic
@@ -45,18 +51,18 @@ class LoginActivity : AppCompatActivity() {
             .build()
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
-        binding.signinBtn.setOnClickListener{
+        signinButton.setOnClickListener{
             loginFirebase(binding.usuarioTextfield.text.toString(),binding.contrasenaTextfield.text.toString())
             val signInIntent = Intent(this, MainActivity::class.java)
             Toast.makeText(this,"Logeado Exitosamente",Toast.LENGTH_SHORT)
             startActivityForResult(signInIntent, RC_SIGN_IN)
         }
-        binding.signInGoogleButton.setOnClickListener{
+        signinGoogleButton.setOnClickListener{
             val signInIntent = mGoogleSignInClient.signInIntent
             startActivityForResult(signInIntent, RC_SIGN_IN)
         }
-        binding.registroBtn.setOnClickListener{
-            val signupIntent = Intent(this, SignupActivity::class.java)
+        signupButton.setOnClickListener{
+            val signupIntent = Intent(this, SignupOneActivity::class.java)
             startActivity(signupIntent)
         }
     }
@@ -102,7 +108,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun updateUI(account: GoogleSignInAccount?) {
         if (account != null){
-            val intent = Intent(this, SignupActivity::class.java)
+            val intent = Intent(this, SignupOneActivity::class.java)
             intent.putExtra("name", account.displayName)
             intent.putExtra("email", account.email)
             startActivityForResult(intent, COD_LOGOUT)

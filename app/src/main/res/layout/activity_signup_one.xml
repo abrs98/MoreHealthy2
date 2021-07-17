@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupOneActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azulverde1"
+        android:padding="15dp"
+        android:text="Registro"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_margin="25dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/comencemos_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡Comencemos!"
+                android:textColor="@color/azuloscuro1"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="60dp"
+                android:layout_gravity="center"
+                />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textColor="@color/azuloscuro1"
+                android:layout_marginTop="80dp"
+                />
+            <EditText
+                android:id="@+id/nombre_textfield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email o usuario"
+                android:textColor="@color/azuloscuro1"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:id="@+id/username_textfield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contraseña"
+                android:textColor="@color/azuloscuro1"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:id="@+id/contrasena_textfield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signup_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="25dp"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@color/azuloscuro2"
+            android:padding="10dp"
+            android:text="Continuar"
+            android:textColor="@color/blanco"
+            app:layout_constraintTop_toBottomOf="@+id/fragment"
+            tools:layout_editor_absoluteX="34dp" />
+    </LinearLayout>
+
+</LinearLayout>

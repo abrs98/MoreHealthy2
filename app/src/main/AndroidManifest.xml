@@ -9,6 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MoreHealthy2">
+        <activity
+            android:name=".SignupThreeActivity"
+            android:label="@string/title_activity_signup_three"
+            android:theme="@style/Theme.MoreHealthy2.NoActionBar"></activity>
+        <activity
+            android:name=".SignupTwoActivity"
+            android:label="@string/title_activity_signup_two"
+            android:theme="@style/Theme.MoreHealthy2.NoActionBar" />
+        <activity
+            android:name=".SignupOneActivity"
+            android:label="@string/title_activity_signup_one"
+            android:theme="@style/Theme.MoreHealthy2.NoActionBar" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

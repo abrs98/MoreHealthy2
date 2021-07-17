@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupThreeActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azulverde1"
+        android:padding="15dp"
+        android:text="Registro"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_margin="25dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginVertical="30dp">
+
+            <TextView
+                android:id="@+id/nivelfisico_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="¿Cuál es tu nivel de actividad fisica?"
+                android:textColor="@color/azuloscuro1"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+            <RadioGroup
+                android:id="@+id/nivel_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="70dp"
+                android:layout_marginHorizontal="25dp"
+                >
+                <RadioButton
+                    android:id="@+id/sedentario_toggle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sedentario"
+                    android:textColor="@color/azuloscuro1"
+                    android:gravity="center"
+                    />
+                <RadioButton
+                    android:id="@+id/ligera_toggle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ligera"
+                    android:textColor="@color/azuloscuro1"
+                    android:gravity="center"
+                    />
+                <RadioButton
+                    android:id="@+id/moderada_toggle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Moderada"
+                    android:textColor="@color/azuloscuro1"
+                    android:gravity="center"
+                    />
+                <RadioButton
+                    android:id="@+id/alta_toggle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alta"
+                    android:textColor="@color/azuloscuro1"
+                    android:gravity="center"
+                    />
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signup_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="25dp"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@color/azuloscuro2"
+            android:padding="10dp"
+            android:text="Continuar"
+            android:textColor="@color/blanco"
+            app:layout_constraintTop_toBottomOf="@+id/fragment"
+            tools:layout_editor_absoluteX="34dp" />
+    </LinearLayout>
+
+</LinearLayout>

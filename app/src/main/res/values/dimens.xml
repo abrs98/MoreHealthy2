@@ -11,4 +11,5 @@
     <dimen name="excersice_type_size">20sp</dimen>
     <dimen name="graphWith">10dp</dimen>
     <dimen name="graphBackground">15dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>
