@@ -8,7 +8,7 @@
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
+    <string name="welcome1">"Welcome !"</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
@@ -16,4 +16,85 @@
     <string name="entrenamos_question">¿Entrenamos?</string>
     <string name="entrenamos_contenido">Comienza a entrenar con un plan personal que te guía mientras se ajusta
     a tu progreso, horario y otras actividades.</string>
+
+    <string name="home">Inicio</string>
+    <string name="entrenamiento">Entrenamiento</string>
+    <string name="alimentos">Alimentos</string>
+    <string name="progreso">Progreso</string>
+
+    <string name="title_physical_activity">Actividad Fisica</string>
+    <string name="doYouHaveAMinute">¿Tiene un par de minutos?</string>
+    <string name="willYouTakeSomeTests">Tomaremos algunas pruebas de aptitud fisica</string>
+    <string name="takeTest">Tomar pruebas</string>
+    <string name="skip">Omitir</string>
+    <string name="whichFoodYouWant">¿Que alimentos deseas incluir?</string>
+    <string name="selectFoodYouWant">Selecciona los alimentos que desees para generar el plan
+        de alimentacion</string>
+    <string name="select">Seleccionar</string>
+    <string name="hello">Hola</string>
+    <string name="comma">,</string>
+    <string name="welcome">¡Bienvenido a More Healthy!</string>
+    <string name="ourWishes">Esperamos que puedas lograr tus objetivos</string>
+    <string name="youCanLogin">¡Ya puedes iniciar!</string>
+    <string name="youCanContinue">Continuar</string>
+    <string name="admirationMark">!</string>
+    <string name="helloWithMarl">¡Hola</string>
+    <string name="advice">Que este dia sea productivo y feliz.</string>
+    <string name="recommendations">Recomendaciones</string>
+    <string name="recommendationsToLooseWeight">Habitos para adelgazar</string>
+    <string name="keepReadiong">Seguir leyendo</string>
+    <string name="hook">El ejercicio, junto con la dieta, es escencial para adelgazar
+    y mantener la salud.</string>
+
+    <string name="articleTitle">¿Como mantener una dieta saludable?</string>
+    <string name="firstParagraph">El simple hecho de recuperar los buenos habitos hara gran
+        parte del trabajo, existen algunas medidas faciles y avaladas por la ciencia que
+        aceleraran la perdida de peso sin que sufras dietas ni entrenamientos extremos.</string>
+    <string name="secondParagraph">Duerme bien</string>
+    <string name="thirdParagraph">Para algunos expertos, esta es la regla numero uno a la hora
+        de adelgazar, mas importante incluso que la dieta o el ejercicio. Y es que numerosos
+        estudios (el ultimo publicado esta semana en Science Advances) han demostrado la relacion
+        entre el deficit de sueño y el aumento de peso. Las razones son varias, principalmente
+        hormonales pero tambien tan sencillas de comprender como que si tu cerebro y tu cuerpo no
+        tienen energia, la reclamaran de los alimentos mas caloricos.</string>
+    <string name="fourthParagraph">Desayuna este tipo de cereales</string>
+    <string name="fifthParagraph">Desayunar cada dia, incluyendo fruta y proteina, es un habito
+        que comparten las personas delgadas. Pero, segun un nuevo estudio llevado a cabo por la
+        Universidad Estatal de Pensilvania, existe un ingrediente mas que, consumido en la
+        primera comida, puede ayudar a perder peso: los cereales de copos grandes. Si elegimos
+        este tipo en vez de los copos mas pequeños, sera mas facil controlar la cantidad y las
+        calorias</string>
+    <string name="sixthParagraph">Evita todos los refrescos y las bebidas con alcohol</string>
+    <string name="seventhParagraph">Los referescos azucarados parecen condenados a desaparecer,
+        pero lo mismo podria suceder con sus versiones libres de calorias: un reciente estudio
+        desarrollado por la Universidad Marquette y el Colegio Medico de Wisconsin comprobo
+        que los refrescos light no solo no ayudan a adelgazar, como a veces suponemos, sino que
+        incluso pueden predisponer a sufrir obesidad y diabetes. Por su parte, el alcohol aporta
+        calorias vacias que pueden evitarse con un gesto tan sencillo como sustituir esa copa
+        por un zumo natural -que te aporta vitaminas y otros micronutrientes- o, sencillamente,
+        un vaso de agua.</string>
+    <string name="eighthParagraph">Come frutas entre horas</string>
+    <string name="ninthParagraph">Al se consumida fuera de las comidas "Favorecemos una buena
+        digestion asi como una mejor absorcion de los nutrientes", nos contaba la nutricionista
+        Cristina Amago, quien tambien apunta al desayuno como un buen momento para comer fruta.
+        Si tomas fruta a media mañana o por la tarde, ademas de digerirla mejor y aprovechar su
+        aporte de fibra para mantener saciada hasta la proxima comida principal, reemplazaras
+        otros snacks menos saludables y asi podras ahorrarte mas de 360 calorias cada dia </string>
+
+    <string name="health">Salud</string>
+    <string name="imc">IMC</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="settings">Configuracion</string>
+    <string name="protein">Proteiinas</string>
+    <string name="carbohydrates">Carbohidratos</string>
+    <string name="fats">Grasas</string>
+    <string name="proteinLimit">90 g</string>
+    <string name="carbohydratesLimit">135 g</string>
+    <string name="fatsLimit">32 g</string>
+    <string name="breakfast">Desayuno</string>
+    <string name="lunch">Almuerzo</string>
+    <string name="dinner">Cena</string>
+
+    <string name="food_aux_left">&lt;</string>
+    <string name="food_aux_right">&gt;</string>
 </resources>

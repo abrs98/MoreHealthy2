@@ -3,22 +3,24 @@
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
-
-    <item
-        android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/title_dashboard" />
-
-    <item
-        android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/title_notifications" />
+        android:icon="@drawable/home"
+        android:title="@string/home" />
 
     <item
         android:id="@+id/navigation_entrenamiento"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@drawable/entrenamiento"
         android:title="Entrenamiento" />
+    
+    <item
+        android:id="@+id/navigation_alimentos"
+        android:icon="@drawable/alimentos"
+        android:title="@string/alimentos" />
+
+    <item
+        android:id="@+id/navigation_progreso"
+        android:icon="@drawable/progreso"
+        android:title="@string/progreso" />
+
+
 
 </menu>

@@ -1,4 +1,4 @@
-package barrios.abrahan.morehealthy2.ui.home
+package barrios.abrahan.morehealthy2.ui.dashboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,13 +8,12 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import barrios.abrahan.morehealthy2.R
-import barrios.abrahan.morehealthy2.databinding.FragmentHomeBinding
+import barrios.abrahan.morehealthy2.databinding.FragmentDashboardBinding
 
-class HomeFragment : Fragment() {
+class AlimentosFragment : Fragment() {
 
-    private lateinit var homeViewModel: HomeViewModel
-    private var _binding: FragmentHomeBinding? = null
+    private lateinit var alimentosViewModel: AlimentosViewModel
+    private var _binding: FragmentDashboardBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,11 +24,12 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+        alimentosViewModel =
+            ViewModelProvider(this).get(AlimentosViewModel::class.java)
 
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        _binding = FragmentDashboardBinding.inflate(inflater, container, false)
         val root: View = binding.root
+
 
         return root
     }
