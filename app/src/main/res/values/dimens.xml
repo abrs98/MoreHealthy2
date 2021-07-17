@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textMargin">8dp</dimen>
+    <dimen name="image_text_padding">8dp</dimen>
+    <dimen name="image_text_size">15sp</dimen>
+    <dimen name="element_padding">25dp</dimen>
+    <dimen name="element_margin">30dp</dimen>
+    <dimen name="excersice_type_height">90dp</dimen>
+    <dimen name="excersice_type_size">20sp</dimen>
+    <dimen name="graphWith">10dp</dimen>
+    <dimen name="graphBackground">15dp</dimen>
+</resources>

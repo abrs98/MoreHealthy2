@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.entrenamiento.EntrenamientoFragment"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/element_margin"
+        android:orientation="vertical">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="@string/entrenamos_question" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textMargin"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            android:text="@string/entrenamos_contenido"/>
+
+        <GridView
+            android:id="@+id/trainings_catalog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numColumns="1"
+            android:paddingHorizontal="30dp"
+            android:padding="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
