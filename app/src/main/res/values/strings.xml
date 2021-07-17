@@ -16,4 +16,6 @@
     <string name="entrenamos_question">¿Entrenamos?</string>
     <string name="entrenamos_contenido">Comienza a entrenar con un plan personal que te guía mientras se ajusta
     a tu progreso, horario y otras actividades.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
